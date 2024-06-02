@@ -1,25 +1,26 @@
 @media only screen and (min-width: 200px) and (max-width:576px) {
 
-    /* navbar start */
-    body {
-        width: 100%;
-        margin: 0;
-        padding: 0;
+
+    body{
+        margin-left: 10px;
     }
     .container {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
         margin: 0;
         padding: 0;
     }
+    /* navbar start */
     .nav-bar {
         width: 100%;
         flex-direction: column;
         align-items: center;
         padding: 0 10px;
         margin: 0 20px;
+        flex-wrap:wrap ;
     }
     .nav-bar h1{
         font-size: 40px;
@@ -119,6 +120,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .about-me-text{
+        width: 100%;
+    }
     .about-me h1 {
         font-size: 30px;
         font-weight: 700;
@@ -141,6 +145,7 @@
     footer {
         gap: 10px;
         width: 100%;
+        flex-wrap: wrap;
     }
     footer h1 {
         font-size: 40px;
@@ -153,6 +158,9 @@
     .end {
         font-size: 16px;
         font-weight: 500;
+    }
+    .footer-menu{
+        flex-wrap: wrap;
     }
     .footer-icon img{
         height: 20px;
@@ -184,13 +192,12 @@
         font-size: 16px;
     }
     .exp-description {
-        font-size: 16px;
+        width: 100%;
+        font-size: 12px;
         font-weight: 300;
     }
-    .exp-achivement div {
+    .exp-achivement{
         width: 100%;
-        padding: 0px;
-        margin: 0;
     }
     .exp-achivement p {
         font-size: 12px;
@@ -256,7 +263,7 @@
         padding: 0;
     }
     .portfolio-option-btn {
-        gap: 20px;
+        flex-direction:column;
     }
     .first-part-title p {
         font-size: 16px;
