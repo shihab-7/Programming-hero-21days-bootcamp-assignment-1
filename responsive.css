@@ -1,0 +1,295 @@
+@media only screen and (min-width: 200px) and (max-width:576px) {
+
+    /* navbar start */
+    body {
+        width: fit-content;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-items {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .nav-items h3 {
+        font-size: 20px;
+    }
+    .nav-items button {
+        margin-top: 7px;
+    }
+    /* navbar end */
+
+    /* banner start */
+    .banner-details h1 {
+        font-size: 30px;
+    }
+    .banner-details p {
+        font-size: 20px;
+        width: 500px;
+    }
+    .banner-options {
+        font-weight: 300;
+        font-size: 25px;
+    }
+    .portfolio-btn {
+        height: 60px;
+    }
+    .prtf p {
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .prtf {
+        margin-top: 10px;
+    }
+    .hireme p {
+        font-size: 20px;
+    }
+    .banner-image {
+        width: 530px;
+    }
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* banner end */
+
+    /* optional topic start */
+    .topic {
+        gap: 20px;
+        width: fit-content;
+    }
+    .topic h4 {
+        font-weight: 300;
+        font-size: 30px;
+        width: fit-content;
+        display: inline;
+    }
+    .topic img {
+        height: 50px;
+        width: 50px;
+    }
+    /* optional topic end */
+
+    /* about me section start */
+    .about-me {
+        width: fit-content;
+        gap: 50px;
+    }
+    .about-me h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .about-me-text {
+        width: 600px;
+    }
+    .about-me-text p {
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .about-me-star p {
+        font-size: 25px;
+    }
+    /* about me section end */
+
+    /* footer section start */
+    footer {
+        gap: 50px;
+        width: 100%;
+        margin-left: 10px;
+    }
+    footer h1 {
+        font-size: 50px;
+    }
+    footer h3 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    /* footer section end */
+    .end {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    /* main section start */
+    .main-class {
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .experience-section {
+        width: 100%;
+    }
+    .exp-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+        margin-bottom: 20px;
+    }
+    .exp-text h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .exp-text i {
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .exp-description {
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .exp-achivement {
+        width: 581px;
+        height: fit-content;
+    }
+    .exp-achivement p {
+        font-size: 30px;
+    }
+    .exp-achivement p span {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .exp-achivement h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    /* main section end */
+
+    /* Awards section start */
+    #awards {
+        padding-left: 80px;
+    }
+    .award-card {
+        width: 100%;
+    }
+    .award-title p {
+        font-size: 30px;
+        font-weight: 200;
+        text-align: center;
+    }
+    .award-title h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .first-half p {
+        font-size: 30px;
+        font-weight: 200;
+    }
+    .first-half h4 {
+        font-size: 40px;
+    }
+    .second-half p {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+    /* Awards section end */
+
+    /* my portfolio start */
+    .my-portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .card-section {
+        width: 85%;
+    }
+    .first-part-title {
+        width: 540px;
+    }
+    .first-part-title h1 {
+        font-size: 40px;
+    }
+    .portfolio-option-btn {
+        gap: 20px;
+    }
+    .first-part-title p {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .prtf-btn {
+        font-size: 25px;
+        font-weight: 300;
+    }
+    .card-second-part-texts i {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .card-second-part-texts h1 {
+        font-size: 40px;
+    }
+    .text-details {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .card-img {
+        width: 800px;
+        height: 400px;
+    }
+    /* my portfolio end */
+
+    /* contact section start */
+    .contact-section {
+        width: 95%;
+        padding-left: 20px;
+    }
+    .contact-header p {
+        font-size: 30px;
+    }
+    .contact-header h1 {
+        font-size: 40px;
+    }
+    .contact-form {
+        width: 90%;
+        height: fit-content;
+    }
+    #form-title {
+        font-size: 40px;
+    }
+    .form-items {
+        width: 80%;
+        padding: 20px;
+        margin: 20px;
+    }
+    .item-title {
+        width: 370px;
+        font-weight: 200;
+        font-size: 30px;
+    }
+    .title2 {
+        width: 100%;
+    }
+    #attach-file {
+        width: fit-content;
+        height: fit-content;
+        font-weight: 200;
+        font-size: 20px;
+    }
+    /* contact section end*/
+}
