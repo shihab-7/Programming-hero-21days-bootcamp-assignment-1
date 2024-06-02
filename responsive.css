@@ -2,28 +2,36 @@
 
     /* navbar start */
     body {
-        width: fit-content;
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
-
     .container {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: fit-content;
-        margin-top: 5px;
-        margin-left: 0px;
+        margin: 0;
+        padding: 0;
     }
     .nav-bar {
+        width: 100%;
         flex-direction: column;
         align-items: center;
+        padding: 0 10px;
+        margin: 0 20px;
+    }
+    .nav-bar h1{
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
     }
     .nav-items {
         display: flex;
-        justify-content: space-between;
-        gap: 30px;
+        gap: 20px;
     }
     .nav-items h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
     .nav-items button {
         margin-top: 7px;
@@ -32,33 +40,44 @@
 
     /* banner start */
     .banner-details h1 {
-        font-size: 30px;
+        font-size: 25px;
+        margin:0;
+    }
+    .banner-details img{
+        height: 25px;
+        width: 25px;
     }
     .banner-details p {
-        font-size: 20px;
-        width: 500px;
+        font-size: 16px;
+        margin: 0;
+        padding: 0 5px;
     }
     .banner-options {
         font-weight: 300;
-        font-size: 25px;
+        font-size: 20px;
+    }
+    .banner-options span img{
+        height: 20px;
+        width: 20px;
     }
     .portfolio-btn {
-        height: 60px;
+        height: 50px;
     }
     .prtf p {
         display: flex;
-        align-items: center;
-        font-size: 20px;
-        padding: 5px;
+        gap: 5px;
+        font-size: 16px;
     }
     .prtf {
-        margin-top: 10px;
+        margin-top: 3px;
     }
     .hireme p {
-        font-size: 20px;
+        font-size: 16px;
+        margin-bottom: 3px;
     }
     .banner-image {
-        width: 530px;
+        width: 450px;
+        
     }
     .banner {
         flex-direction: column;
@@ -78,69 +97,74 @@
 
     /* optional topic start */
     .topic {
-        gap: 20px;
-        width: fit-content;
+        gap: 15px;
+        width: 100%;
+        overflow: hidden;
+        height: 50px;
     }
     .topic h4 {
-        font-weight: 300;
-        font-size: 30px;
+        font-weight: 500;
+        font-size: 10px;
         width: fit-content;
-        display: inline;
     }
     .topic img {
-        height: 50px;
-        width: 50px;
+        height: 25px;
+        width: 25px;
     }
     /* optional topic end */
 
     /* about me section start */
     .about-me {
-        width: fit-content;
-        gap: 50px;
+        width:100%;
+        flex-direction: column;
+        align-items: center;
     }
     .about-me h1 {
         font-size: 30px;
         font-weight: 700;
-    }
-    .about-me-text {
-        width: 600px;
+        text-align: center;
     }
     .about-me-text p {
-        font-size: 30px;
+        font-size: 16px;
         font-weight: 200;
+        text-align: center;
+        padding: 0 20px;
     }
     .about-me-star p {
         font-size: 25px;
+        padding: 0;
+        margin: 0;
     }
     /* about me section end */
 
     /* footer section start */
     footer {
-        gap: 50px;
+        gap: 10px;
         width: 100%;
-        margin-left: 10px;
     }
     footer h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     footer h3 {
-        font-size: 30px;
+        font-size: 10px;
         font-weight: 500;
     }
     /* footer section end */
     .end {
-        font-size: 30px;
+        font-size: 16px;
         font-weight: 500;
+    }
+    .footer-icon img{
+        height: 20px;
+        width: 20px;
     }
     /* main section start */
     .main-class {
-        margin-left: 15px;
+        width: 100%;
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .experience-section {
-        width: 100%;
     }
     .exp-text {
         display: flex;
@@ -153,57 +177,64 @@
     .exp-text h1 {
         font-size: 40px;
         font-weight: 500;
+        margin: 0;
     }
     .exp-text i {
         font-weight: 500;
-        font-size: 25px;
+        font-size: 16px;
     }
     .exp-description {
-        font-size: 30px;
+        font-size: 16px;
         font-weight: 300;
     }
-    .exp-achivement {
-        width: 581px;
-        height: fit-content;
+    .exp-achivement div {
+        width: 100%;
+        padding: 0px;
+        margin: 0;
     }
     .exp-achivement p {
-        font-size: 30px;
+        font-size: 12px;
     }
     .exp-achivement p span {
-        font-size: 20px;
-        font-weight: 500;
+        font-size: 10px;
+        font-weight: 300;
     }
     .exp-achivement h1 {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 600;
+        margin: 4px;
     }
     /* main section end */
 
     /* Awards section start */
     #awards {
-        padding-left: 80px;
+        width: 100%;
+        margin: 20px 0;
+        gap: 10px;
     }
     .award-card {
         width: 100%;
+        margin: 0;
     }
     .award-title p {
-        font-size: 30px;
+        font-size: 16px;
         font-weight: 200;
         text-align: center;
     }
     .award-title h1 {
         font-size: 40px;
         text-align: center;
+        margin: 0;
     }
     .first-half p {
-        font-size: 30px;
+        font-size: 12px;
         font-weight: 200;
     }
     .first-half h4 {
-        font-size: 40px;
+        font-size: 20px;
     }
     .second-half p {
-        font-size: 20px;
+        font-size: 12px;
         text-align: center;
         font-weight: 400;
     }
@@ -215,81 +246,87 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin-left: 0px;
     }
     .card-section {
-        width: 85%;
-    }
-    .first-part-title {
-        width: 540px;
+        width: 100%;
     }
     .first-part-title h1 {
         font-size: 40px;
+        text-align: center;
+        padding: 0;
     }
     .portfolio-option-btn {
         gap: 20px;
     }
     .first-part-title p {
-        font-size: 25px;
-        font-weight: 300;
+        font-size: 16px;
+        font-weight: 200;
+        margin: 0;
+        padding-bottom: 5px;
     }
     .prtf-btn {
-        font-size: 25px;
+        font-size: 16px;
         font-weight: 300;
     }
+    .card-second-part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-second-part-texts{
+        padding: 0 10px;
+    }
     .card-second-part-texts i {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 500;
     }
     .card-second-part-texts h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     .text-details {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 300;
     }
-    .card-img {
-        width: 800px;
-        height: 400px;
-    }
+    
     /* my portfolio end */
 
     /* contact section start */
-    .contact-section {
-        width: 95%;
-        padding-left: 20px;
+    .contact-section{
+        margin: 40px 0;
+    }
+    .contact-header{
+        margin: 0;
+        padding: 0;
     }
     .contact-header p {
-        font-size: 30px;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
     }
     .contact-header h1 {
-        font-size: 40px;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
     }
     .contact-form {
         width: 90%;
         height: fit-content;
     }
     #form-title {
-        font-size: 40px;
+        font-size: 30px;
+        margin: 0;
     }
     .form-items {
         width: 80%;
-        padding: 20px;
-        margin: 20px;
     }
     .item-title {
-        width: 370px;
-        font-weight: 200;
-        font-size: 30px;
+        font-size: 16px;
     }
     .title2 {
         width: 100%;
     }
     #attach-file {
-        width: fit-content;
-        height: fit-content;
         font-weight: 200;
-        font-size: 20px;
+        font-size: 12px;
     }
     /* contact section end*/
 }
